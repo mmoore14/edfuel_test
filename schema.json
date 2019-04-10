@@ -12,6 +12,7 @@
         {
           "name": "score",
           "type": "integer",
+          "required": "true",
           "minimum": 0,
           "maximum": 100
         }
