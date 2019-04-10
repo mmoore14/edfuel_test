@@ -2,7 +2,7 @@
       "fields": [
         {
           "name": "name",
-          "type": "string"
+          "type": "string",
           "enum": ["meg", "mike", "nora"]
         },
         {
