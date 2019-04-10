@@ -6,7 +6,7 @@
         },
         {
           "name": "age",
-          "type": "int",
+          "type": "int"
         },
         {
           "name": "score",
