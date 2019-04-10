@@ -1,0 +1,18 @@
+    {
+      fields: [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "age",
+          "type": "int",
+        },
+        {
+          "name": "score",
+          "type": "int",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    }
