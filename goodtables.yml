@@ -1,1 +1,3 @@
-files: '*.csv'
+files: 
+  - source: data.csv
+    scehma: schema.json
