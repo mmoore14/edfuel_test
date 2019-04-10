@@ -6,11 +6,11 @@
         },
         {
           "name": "age",
-          "type": "int"
+          "type": "integer"
         },
         {
           "name": "score",
-          "type": "int",
+          "type": "integer",
           "minimum": 0,
           "maximum": 100
         }
