@@ -1,20 +1,25 @@
     {
-      "fields": [
-        {
-          "name": "name",
-          "type": "string",
-          "enum": ["meg", "mike", "nora"]
-        },
-        {
-          "name": "age",
-          "type": "integer"
-        },
-        {
-          "name": "score",
-          "type": "integer",
-          "required": "true",
-          "minimum": 0,
-          "maximum": 100
-        }
-      ]
+    	"fields": [{
+    			"name": "name",
+    			"type": "string",
+    			"constraints": {
+    				"enum": ["meg", "mike", "nora"]
+    			}
+    		},
+    		{
+    			"name": "age",
+    			"type": "integer",
+    			"constraints": {
+    				"required": "true"
+    			}
+    		},
+    		{
+    			"name": "score",
+    			"type": "integer",
+    			"constraints": {
+    				"minimum": 0,
+    				"maximum": 100
+    			}
+    		}
+    	]
     }
