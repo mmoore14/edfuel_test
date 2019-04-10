@@ -3,6 +3,7 @@
         {
           "name": "name",
           "type": "string"
+          "enum": ["meg", "mike", "nora"]
         },
         {
           "name": "age",
