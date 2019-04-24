@@ -1,3 +1,7 @@
 files: 
   - source: data.csv
     schema: schema.json
+  - source: data2.csv
+    schema: schema.json
+  - source: data3.csv
+    schema: schema.json
